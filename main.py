@@ -19,7 +19,7 @@ app = Flask('')
 
 @app.route('/')
 def home():
-    return "✅ Snap18+Masala Bot is alive!"
+    return "✅ Snapanimee Bot is alive!"
 
 def run():
     app.run(host='0.0.0.0', port=8080)
@@ -31,7 +31,7 @@ def keep_alive():
 # /start command
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     message = (
-        "🎬 *Welcome to Snap18+Masala Bot!*\n\n"
+        "🎬 *Welcome to Snapanimee Bot!*\n\n"
         "Send `/movie <name>` to get the download link.\n"
         "Thanks for supporting us ❤️"
     )
